@@ -1,0 +1,40 @@
+import java.util.Comparator;
+
+public class Hdtv {
+	
+	
+	String brandname;
+	int size;
+	
+	
+	public Hdtv(String brandname,int size) {
+		
+		this.brandname=brandname;
+		this.size=size;
+		
+	
+	}
+	
+	public String getBrandname() {
+		return brandname;
+	}
+	public void setBandname(String brandname) {
+		this.brandname = brandname;
+	}
+	public int getSize() {
+		return size;
+	}
+	public void setSize(int size) {
+		this.size = size;
+	}
+
+	
+	public String toString(){
+		return size+brandname;
+		
+	}
+
+	
+	
+
+}
